@@ -3,10 +3,17 @@
 void greet()
 {
 	// print some text
-	std::cout << "Welcome!\n\n\n";
+	std::cout << "Good morning, Dave.\n\n\n";
+}
+
+void byebye()
+{
+	// print some text
+	std::cout << "Farewell, Dave.\n\n\n";
 }
 
 int main()
 {
 	greet();
+	byebye();
 }
