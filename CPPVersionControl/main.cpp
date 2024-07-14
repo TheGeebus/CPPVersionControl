@@ -3,16 +3,17 @@
 void greet()
 {
 	// print some text
-	std::cout << "Welcome!\n\n\n";
+	std::cout << "Good morning, Dave.\n\n\n";
 }
 
-void farewell()
+void byebye()
 {
-	std::cout << "Sayonara, sucker\n\n\n";
+	// print some text
+	std::cout << "Farewell, Dave.\n\n\n";
 }
 
 int main()
 {
 	greet();
-	farewell();
+	byebye();
 }
